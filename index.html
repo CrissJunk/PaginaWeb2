@@ -3,39 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Página Web</title>
+    <title>CRISTIAN - Portafolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        header {
+            background-color: #3F5773;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 70%;
+        }
+
+        section {
+            margin: 40px 20px;
+            text-align: center;
+        }
+
+
+        h2 {
+            color: #d08451;
+            border-bottom: 2px solid #3F5773;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .project {
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi Página Web</h1>
 
+    <header>
+        <img src="C:/Users/ASUS/Desktop/PagesPersonal/Control.jpg" alt="Descripción de la imagen" >
+        <h1>CRISTIAN MARQUINA JARA</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Contenido Principal</h2>
-        <p>¡Hola! Bienvenido a mi página web.</p>
-        <p>¡Hola, soy Cristian Marquina Ingeniero Mecatrónico apasionado por la innovación y la fusión de la mecánica, 
-        la electrónica y la informática. Con una mente curiosa y creativa, he dedicado  a diseñar soluciones tecnológicas 
-        que impulsan el progreso y mejoran la eficiencia.
-            
-        Mi enfoque es crear máquinas y sistemas que no solo funcionen, sino que también inspiren. Desde la robótica hasta 
-        el control automático, cada proyecto es una oportunidad para aplicar mi experiencia técnica y creatividad.
-            
-        Soy un solucionador de problemas nato y siempre estoy listo para enfrentar nuevos desafíos en el mundo de la mecatrónica. 
-        Bienvenido a mi espacio digital, donde la ingeniería se encuentra con la creatividad. Explora mi trayectoria y descubre 
-        cómo podemos trabajar juntos para llevar las ideas a la realidad.
-        ¡Vamos a construir el futuro, una innovación a la vez!</p>
+
+    <section id="biografia">
+         
+        <h2>Biografía</h2>
+        <p>¡Hola, soy Cristian Marquina Ingeniero Mecatrónico apasionado por la innovación y la fusión de la mecánica, la electrónica y la informática.</p>
+        <p>Con una mente curiosa y creativa, he dedicado a diseñar soluciones tecnológicas que impulsan el progreso y mejoran la eficiencia.</p>
+        <p>Mi enfoque es crear máquinas y sistemas que no solo funcionen, sino que también inspiren. Desde la robótica hasta el control automático,</p>
+        <p>cada proyecto es una oportunidad para aplicar mi experiencia técnica y creatividad.</p>
+        <P>Soy un solucionador de problemas nato y siempre estoy listo para enfrentar nuevos desafíos en el mundo de la mecatrónica.</P>
+        <p>Bienvenido a mi espacio digital, donde la ingeniería se encuentra con la creatividad.</p>
+        <p>Explora mi trayectoria y descubre cómo podemos trabajar juntos para llevar las ideas a la realidad. ¡Vamos a construir el futuro, una innovación a la vez!</p>
     </section>
-    <footer>
-        <p>&copy; 2023 Mi Página Web</p>
-    </footer>
-    <script src="script.js"></script>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desarrollo de software</li>
+            <li>Diseño de sistemas mecatrónicos</li>
+            <li>Programación en C++, Python</li>
+            <li>Control automático</li>
+            <!-- Agrega más habilidades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+        <!-- Agrega más proyectos según sea necesario -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de [tu correo electrónico] o seguirme en [tus redes sociales]. Estoy disponible para oportunidades de colaboración y proyectos emocionantes.</p>
+    </section>
+
 </body>
 </html>
